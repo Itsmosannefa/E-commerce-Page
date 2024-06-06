@@ -507,9 +507,9 @@ footer {
     }
 
     .navlist.open {
-        left: 60%;
+        left: 0%;
         opacity: 1;
-        width: 200px;
+        width: 100%;
     }
 
     .home-text {
