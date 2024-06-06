@@ -48,6 +48,7 @@ header {
 .navlist {
     list-style: none;
     display: flex;
+     overflow:hidden;
 }
 
 .navlist a {
@@ -488,8 +489,9 @@ footer {
     .navlist {
         position: absolute;
         top: 0%;
-        left: -100%;
-        width: 200px;
+        left: 80%;
+       opacity: 0;
+        width: 0;
         height: 100vh;
         background: var(--bg-color);
         display: flex;
@@ -505,8 +507,9 @@ footer {
     }
 
     .navlist.open {
-
-        left: 65%;
+        left: 60%;
+        opacity: 1;
+        width: 200px;
     }
 
     .home-text {
